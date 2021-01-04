@@ -36,7 +36,7 @@ public class ViewPraktikum extends JFrame{
     JButton jbtambah = new JButton("Tambah");
     JButton jbupdate = new JButton("Update");
     JButton jbcancel = new JButton("Cancel");
-    JButton jbsearch = new JButton("✓ ");
+    JButton jbsearch = new JButton("Cari NIM");
     
     
     
@@ -62,7 +62,7 @@ public class ViewPraktikum extends JFrame{
         add(jtsearch);
         jtsearch.setBounds(60,325, 100, 20);
         add(jbsearch);
-        jbsearch.setBounds(175,325,50,20);
+        jbsearch.setBounds(175,325,90,20);
         
         
         
@@ -97,6 +97,8 @@ public class ViewPraktikum extends JFrame{
         
         add(jbcancel);
         jbcancel.setBounds(510, 240, 90, 20);
+        
+        
     }
     
     

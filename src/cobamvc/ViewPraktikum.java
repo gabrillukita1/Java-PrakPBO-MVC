@@ -57,17 +57,15 @@ public class ViewPraktikum extends JFrame{
         setSize(750,400); // x , y
         
         // CARI
-        add(jlsearch);
-        jlsearch.setBounds(20,325, 50,20);
         add(jtsearch);
-        jtsearch.setBounds(60,325, 100, 20);
+        jtsearch.setBounds(20, 25, 380, 20);
         add(jbsearch);
-        jbsearch.setBounds(175,325,90,20);
+        jbsearch.setBounds(405, 25, 90, 20);
         
         
         
         add(scrollPane);
-        scrollPane.setBounds(20, 20, 480, 300);
+        scrollPane.setBounds(20, 55, 480, 280);
         
         // NIM =================================================================
         add(jlnim);
